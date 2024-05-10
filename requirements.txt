@@ -1,5 +1,6 @@
 notebook
 langchain
+langchainhub
 langchain-openai
 beautifulsoup4
 faiss-cpu
