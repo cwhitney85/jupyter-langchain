@@ -4,3 +4,6 @@ langchainhub
 langchain-openai
 beautifulsoup4
 faiss-cpu
+langserve[all]
+fastapi
+uvicorn[standard]

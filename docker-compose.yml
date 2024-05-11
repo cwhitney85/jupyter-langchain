@@ -8,3 +8,13 @@ services:
       - "8888:8888"
     volumes:
       - ./jupyter/notebooks:/app
+    env_file:
+      - .env
+  langserve:
+    build:
+      context: .
+      dockerfile: langserve/Dockerfile
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
